@@ -7,35 +7,79 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
-    <script src="/js/main.js"></script>
 </head>
 <body>
 
 <div id="app">
 
     <header class="wrapper">
-        <h1>Stwórz własną historię...</h1>
-        <h2>o podróży kosmitów!</h2>
+        <h1>Stwórz własną historię ...</h1>
+        <h2>... o podróży kosmitów!</h2>
         <img src="img/ufo.png" alt="ufo" />
     </header>
 
-    <section class="contentForm wrapper">
+    <section class="contentForm">
         <h3>Uzupełnij poniższe pola:</h3>
-        <label for="title"> Tytuł historii: <input v-model="title" id="title"/></label>
-        <br><label for="planet"> Planeta: <input v-model="planet" id="planet"/></label>
-        <br><label for="hostel"> Hostel: <input v-model="hostel" id="hostel"/></label>
-        <br><label for="language"> Język: <input v-model="language" id="language"/></label>
-        <br><label for="firstName"> Pierwsze imię: <input v-model="firstName" id="firstName"/></label>
-        <br><label for="secondName"> Drugie imię: <input v-model="secondName" id="secondName"/></label>
-        <br><label for="roomNumber"> Numer: <input v-model="roomNumber" id="roomNumber"/></label>
-        <br><label for="neighborsHobby"> Pierwsze zajęcie: <input v-model="neighborsHobby" id="neighborsHobby"/></label>
-        <br><label for="sightseeingMake"> Drugie zajęcie <input v-model="sightseeingMake" id="sightseeingMake"/></label>
-        <br><label for="sightseeingPlace"> Pierwsze miejsce: <input v-model="sightseeingPlace" id="sightseeingPlace"/></label>
-        <br><label for="dinnerPlace"> Drugie miejsce: <input v-model="dinnerPlace" id="dinnerPlace"/></label>
-        <br><label for="souvenirsPlace"> Trzecie miejsce: <input v-model="souvenirsPlace" id="souvenirsPlace"/></label>
-        <br><label for="friends"> Osoba: <input v-model="friends" id="friends"/></label>
-        <br><label for="firstSouvenirs"> Pierwsza rzecz: <input v-model="firstSouvenirs" id="firstSouvenirs"/></label>
-        <br><label for="secondSouvenirs"> Druga rzecz: <input v-model="secondSouvenirs" id="secondSouvenirs"/></label>
+        <div>
+            <label for="title"> Tytuł historii: </label>
+            <input v-model="title" id="title"/>
+        </div>
+        <div>
+            <label for="planet"> Planeta: </label>
+            <input v-model="planet" id="planet"/>
+        </div>
+        <div>
+            <label for="hostel"> Hostel: </label>
+            <input v-model="hostel" id="hostel"/>
+        </div>
+        <div>
+            <label for="language"> Język: </label>
+            <input v-model="language" id="language"/>
+        </div>
+        <div>
+            <label for="firstName"> Pierwsze imię: </label>
+            <input v-model="firstName" id="firstName"/>
+        </div>
+        <div>
+            <label for="secondName"> Drugie imię: </label>
+            <input v-model="secondName" id="secondName"/>
+        </div>
+        <div>
+            <label for="roomNumber"> Numer: </label>
+            <input v-model="roomNumber" id="roomNumber"/>
+        </div>
+        <div>
+            <label for="neighborsHobby"> Pierwsze zajęcie: </label>
+            <input v-model="neighborsHobby" id="neighborsHobby"/>
+        </div>
+        <div>
+            <label for="sightseeingMake"> Drugie zajęcie: </label>
+            <input v-model="sightseeingMake" id="sightseeingMake"/>
+        </div>
+        <div>
+            <label for="sightseeingPlace"> Pierwsze miejsce: </label>
+            <input v-model="sightseeingPlace" id="sightseeingPlace"/>
+        </div>
+        <div>
+            <label for="dinnerPlace"> Drugie miejsce: </label>
+            <input v-model="dinnerPlace" id="dinnerPlace"/>
+        </div>
+        <div>
+            <label for="souvenirsPlace"> Trzecie miejsce: </label>
+            <input v-model="souvenirsPlace" id="souvenirsPlace"/>
+        </div>
+        <div>
+            <label for="friends"> Osoba: </label>
+            <input v-model="friends" id="friends"/>
+        </div>
+        <div>
+            <label for="firstSouvenirs"> Pierwsza rzecz: </label>
+            <input v-model="firstSouvenirs" id="firstSouvenirs"/>
+        </div>
+        <div>
+            <label for="secondSouvenirs"> Druga rzecz: </label>
+            <input v-model="secondSouvenirs" id="secondSouvenirs"/>
+        </div>
     </section>
 
     <section class="contentText wrapper">
@@ -72,32 +116,6 @@
 
 </div>
 
-
-<!--<script type="text/javascript">-->
-
-    <!--new Vue({-->
-        <!--data(){-->
-            <!--return {-->
-                <!--title: "",-->
-                <!--planet: "",-->
-                <!--hostel: "",-->
-                <!--language: "",-->
-                <!--firstName: "",-->
-                <!--secondName: "",-->
-                <!--roomNumber: "",-->
-                <!--neighborsHobby: "",-->
-                <!--sightseeingPlace: "",-->
-                <!--sightseeingMake: "",-->
-                <!--dinnerPlace: "",-->
-                <!--friends: "",-->
-                <!--souvenirsPlace: "",-->
-                <!--firstSouvenirs: "",-->
-                <!--secondSouvenirs: ""-->
-            <!--}-->
-        <!--}-->
-    <!--}).$mount("#app");-->
-
-<!--</script>-->
-
+<script src="js/main.js"></script>
 </body>
 </html>

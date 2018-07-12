@@ -64,9 +64,14 @@ h3 {
 }
 
 .contentText {
+    width: 100%;
     line-height: 2rem;
     font-size: 1.2rem;
-    align-items: left;
+    text-align: left;
+}
+
+.contentText h3 {
+    text-align: center;
 }
 
 p {
@@ -104,25 +109,20 @@ footer img:hover {
     h2 {
         text-align: left;
     }
+
     header img {
         position: absolute;
         right: 0;
         margin: 0;
     }
 
-    .contentForm {
-        text-align: right;
-        align-items: center;
-        justify-content: center;
-    }
-
     .contentForm div {
         display: inline-block;
+        text-align: right;
     }
 
     .contentForm, .contentText, .contentForm input {
         font-size: 1rem;
     }
-
 
 }

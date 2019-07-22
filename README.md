@@ -6,4 +6,4 @@ Short story with a form.
 * CSS
 * Vue.js
 
-**Link:** https://sfait.github.io/Journey-of-aliens/
+**Link:** https://sfait.github.io/journey-of-aliens/
